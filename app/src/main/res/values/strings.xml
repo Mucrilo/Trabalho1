@@ -14,4 +14,14 @@
     <string name="hello_second_fragment">Segundo Fragmento</string>
     <string name="hello_third_fragment">Terceiro Fragmento</string>
 
+    <array name="sons">
+        <item>Animais</item>
+        <item>Cachorro</item>
+        <item>Cavalo</item>
+        <item>Galo</item>
+        <item>Gato</item>
+        <item>Macaco</item>
+        <item>Vaca</item>
+    </array>
+
 </resources>

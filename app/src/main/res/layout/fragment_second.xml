@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#254CAF50"
     tools:context=".SecondFragment"
     tools:layout_editor_absoluteX="-1dp"
     tools:layout_editor_absoluteY="-75dp">
@@ -14,6 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="@string/hello_second_fragment"
+        android:textColor="#009688"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,20 +25,25 @@
         android:id="@+id/button_second_to_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="152dp"
         android:text="@string/to_first_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/spinner_sec_frag_sound"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Spinner.DropDown"
+        android:layout_width="194dp"
+        android:layout_height="31dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#37FFEB3B"
     tools:context=".ThirdFragment">
 
     <TextView
@@ -13,6 +14,8 @@
         android:layout_marginTop="33dp"
         android:layout_marginBottom="37dp"
         android:text="@string/hello_third_fragment"
+        android:textColor="#03A9F4"
+        android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textViewGrid"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,9 +50,14 @@
         android:id="@+id/textViewGrid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="41dp"
+        android:layout_marginEnd="120dp"
         android:layout_marginBottom="15dp"
+        android:gravity="center"
         android:text="Emoji"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/grid_third_frag"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
